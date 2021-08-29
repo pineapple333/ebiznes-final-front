@@ -55,7 +55,7 @@ const Login = () => {
                         <Link to='/'>
                             <GoogleLoginButton
                                 // sould be changes to 'https' when using the proper provider
-                                onClick={() => window.location.assign("http://localhost:12345/authenticate/google")}
+                                onClick={() => window.location.assign("https://cherrybookstore-back-ul5xycu2sa-uc.a.run.app/authenticate/google")}
                             />
                         </Link>
                     </div>
@@ -63,7 +63,7 @@ const Login = () => {
                         <Link to='/login'>
                             <GithubLoginButton
                                 // sould be changes to 'https' when using the proper provider
-                                onClick={() => window.location.assign("http://localhost:12345/authenticate/github")}
+                                onClick={() => window.location.assign("https://cherrybookstore-back-ul5xycu2sa-uc.a.run.app/authenticate/github")}
                             />
                         </Link>
                     </div>
